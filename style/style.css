@@ -1,0 +1,92 @@
+img {
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+body {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.973);
+    max-width: 600px;
+}
+a {
+    text-decoration: none;
+    margin: 1px solid black;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+a:hover {
+    animation-duration: 0.3s;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    background-color: black;
+}
+
+p {
+    text-align: justify;
+    color: white;
+}
+
+ul {
+    color: rgba(255, 255, 255, 0.733);
+}
+
+div {
+    font-family: poppinsregular;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: poppinsbold;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.produto1 {
+    background-color: rgb(153, 99, 0);
+}
+
+div.produto2 {
+    background-color: rgb(194, 61, 61);
+}
+
+div {
+    margin: 10px;
+}
+
+/* CSS para centralizar o link na parte debaixo da div */
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 25px; /* Borda redonda */
+    text-decoration: none;
+    color: #000;
+    background-color: #f0f0f0; /* Cor de fundo opcional */
+    margin-bottom: 10px
+}
+
+/* Centralizando horizontalmente */
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
